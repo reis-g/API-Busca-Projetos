@@ -1,0 +1,52 @@
+# === Node / API ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+.env
+.env.*
+*.log
+
+# === React Native ===
+# Build & Bundles
+android/app/build/
+android/build/
+ios/build/
+*.keystore
+*.jks
+*.p8
+*.p12
+*.cer
+
+# Gradle / Android
+.android/
+.gradle/
+local.properties
+
+# CocoaPods / iOS
+ios/Pods/
+ios/Podfile.lock
+DerivedData/
+
+# Cache / Metro / Watchman
+.expo/
+.expo-shared/
+.watchmanconfig
+.tmp/
+.cache/
+dist/
+
+# Editors
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# === Database dumps ===
+*.sql
+*.dump
+*.bak
